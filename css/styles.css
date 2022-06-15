@@ -638,8 +638,12 @@ img {
   cursor: pointer;
 
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition-duration: 250ms;
+  transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: var(--accent-color);
 }
 
